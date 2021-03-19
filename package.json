@@ -1,14 +1,8 @@
 {
   "name": "visualgo",
   "version": "1.0.0",
-  "description": "Visualize sorting and other algorithm",
+  "description": "visualizing sorting algorithm ",
   "main": "app.js",
-  "dependencies": {
-    "expres": "0.0.5",
-    "express": "^4.17.1",
-    "hbs": "^4.1.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/shubhampal39/VisuAlgo/issues"
   },
-  "homepage": "https://github.com/shubhampal39/VisuAlgo#readme"
+  "homepage": "https://github.com/shubhampal39/VisuAlgo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7"
+  }
 }
